@@ -1,23 +1,29 @@
 var React = require('react');
 var Thumbnail = require('./thumbnail');
 
+// var options= {
+//   partnersData: [{
+//     src:"http://www.clker.com/cliparts/O/v/c/b/i/6/generic-logo.svg",
+//     header:"companyName",
+//     link:"example.com/"
+//   },{
+//     src:"http://www.clker.com/cliparts/O/v/c/b/i/6/generic-logo.svg",
+//     header:"companyName",
+//     link:"example.com/"
+//   }]
+// };
+
 module.exports = React.createClass({
   render: function(){
 
-{/*    var thumbnailData: [{
-        src: "http://3.bp.blogspot.com/-Kgc5sBaFJ0Q/VQg6udRbBHI/AAAAAAAAAI8/fi75SQn3MeE/s1600/IS4U_logo.gif",
-        header: "IS4U",
-        link: "http://www.is4u.be/"
-      },{
-        src: "http://www.iperform.be/sites/www.iperform.be/files/iperform_logo.png",
-        header: "iPerform",
-        link: "http://www.iperform.be/"
-      }]
-
-    var list = this.props.thumbnailData.map(function(thumbnailProps){
-      return <Thumbnail {...thumbnailProps} />
-    });
-  */}
+    // console.log('props in partners: ', this.props);
+    // var list = this.props.partnersData.map(function(thumbnailProps){
+    //   return <Thumbnail {...thumbnailProps} />
+    // });
+    //
+    // return <div>
+    //   {list}
+    // </div>
 
     return <div>
       <h2>Partners</h2>
