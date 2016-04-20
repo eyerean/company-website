@@ -5,11 +5,11 @@ var Thumbnail = require('./thumbnail');
 //   partnersData: [{
 //     src:"http://www.clker.com/cliparts/O/v/c/b/i/6/generic-logo.svg",
 //     header:"companyName",
-//     link:"example.com/"
+//     link:"//example.com/"
 //   },{
 //     src:"http://www.clker.com/cliparts/O/v/c/b/i/6/generic-logo.svg",
 //     header:"companyName",
-//     link:"example.com/"
+//     link:"//example.com/"
 //   }]
 // };
 
@@ -32,21 +32,21 @@ module.exports = React.createClass({
             <Thumbnail
             src="http://www.clker.com/cliparts/O/v/c/b/i/6/generic-logo.svg"
             header="companyName"
-            link="example.com/"
+            link="//example.com/"
             />
           </div>
           <div className="col-md-4">
             <Thumbnail
             src="http://www.clker.com/cliparts/O/v/c/b/i/6/generic-logo.svg"
             header="companyName"
-            link="example.com/"
+            link="//example.com/"
             />
           </div>
           <div className="col-md-4">
             <Thumbnail
             src="http://www.clker.com/cliparts/O/v/c/b/i/6/generic-logo.svg"
             header="companyName"
-            link="example.com/"
+            link="//example.com/"
             />
           </div>
         </div>
@@ -55,14 +55,14 @@ module.exports = React.createClass({
             <Thumbnail
             src="http://www.clker.com/cliparts/O/v/c/b/i/6/generic-logo.svg"
             header="companyName"
-            link="example.com/"
+            link="//example.com/"
             />
           </div>
           <div className="col-md-4">
             <Thumbnail
             src="http://www.clker.com/cliparts/O/v/c/b/i/6/generic-logo.svg"
             header="companyName"
-            link="example.com/"
+            link="//example.com/"
             />
           </div>
         </div>
